@@ -16,11 +16,13 @@ export default function CartPage() {
   const [showConfirmation, setShowConfirmation] = useState(false)
   const [deliveryGuarantee, setDeliveryGuarantee] = useState(true)
 
+  const MINIMUM_ORDER = 120
   const subtotal = total
   const shipping = subtotal > 50 ? 0 : 5.99
   const tax = Math.round(subtotal * 0.1 * 100) / 100
   const deliveryGuaranteeCharge = deliveryGuarantee ? 2.25 : 0
   const finalTotal = subtotal + shipping + tax + deliveryGuaranteeCharge
+  const belowMinimum = subtotal < MINIMUM_ORDER
 
   const generateOrderNumber = () => {
     const timestamp = Date.now()
@@ -196,6 +198,14 @@ export default function CartPage() {
                 {checkoutStep === "review" && (
                   <div className="bg-white rounded-xl shadow-lg p-8 space-y-6">
                     <h2 className="text-2xl font-bold text-gray-900 mb-6">Review Your Order</h2>
+                    
+                    {belowMinimum && (
+                      <div className="bg-red-50 border-2 border-red-300 rounded-lg p-4 mb-6">
+                        <p className="text-red-800 font-bold mb-2">⚠️ Minimum Order Not Met</p>
+                        <p className="text-red-700">Add ${(MINIMUM_ORDER - subtotal).toFixed(2)} more to your cart to reach the minimum order of ${MINIMUM_ORDER}</p>
+                      </div>
+                    )}
+                    
                     {items.map(item => (
                       <div key={item.id} className="flex gap-4 pb-6 border-b last:border-b-0">
                         <img src={item.image} alt={item.name} className="w-24 h-24 object-cover rounded-lg" />
@@ -231,10 +241,21 @@ export default function CartPage() {
                       </div>
                     ))}
                     <button 
-                      onClick={() => setCheckoutStep("shipping")}
-                      className="w-full bg-emerald-600 text-white font-bold py-3 rounded-lg hover:bg-emerald-700 transition-all mt-6"
+                      onClick={() => {
+                        if (belowMinimum) {
+                          alert(`Minimum order is $${MINIMUM_ORDER}. Please add $${(MINIMUM_ORDER - subtotal).toFixed(2)} more to your cart.`)
+                          return
+                        }
+                        setCheckoutStep("shipping")
+                      }}
+                      disabled={belowMinimum}
+                      className={`w-full font-bold py-3 rounded-lg transition-all mt-6 ${
+                        belowMinimum 
+                          ? "bg-gray-300 text-gray-500 cursor-not-allowed" 
+                          : "bg-emerald-600 text-white hover:bg-emerald-700"
+                      }`}
                     >
-                      Continue to Shipping →
+                      {belowMinimum ? `Add $${(MINIMUM_ORDER - subtotal).toFixed(2)} More (Min: $${MINIMUM_ORDER})` : "Continue to Shipping →"}
                     </button>
                   </div>
                 )}
@@ -417,6 +438,13 @@ export default function CartPage() {
               <div className="lg:col-span-1">
                 <div className="bg-white rounded-xl shadow-lg p-8 sticky top-4">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6">Order Summary</h2>
+                  
+                  {belowMinimum && (
+                    <div className="bg-yellow-50 border-2 border-yellow-300 rounded-lg p-3 mb-6">
+                      <p className="text-sm text-yellow-800 font-bold">Minimum Order: ${MINIMUM_ORDER}</p>
+                      <p className="text-sm text-yellow-700 mt-1">Need ${(MINIMUM_ORDER - subtotal).toFixed(2)} more</p>
+                    </div>
+                  )}
                   
                   <div className="space-y-4 pb-6 border-b-2">
                     <div className="flex justify-between text-gray-700">
