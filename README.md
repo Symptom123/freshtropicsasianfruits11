@@ -1,23 +1,57 @@
-# Fresh Tropics Asian Fruits — Premium Fruit Shop
+# 🍎 Fresh Tropics Asian Fruits - E-commerce Platform
 
-A modern e-commerce platform for selling fresh, organic, and exotic fruits online. Built with [Next.js](https://nextjs.org), React, and Tailwind CSS.
+A modern, full-featured e-commerce platform for selling premium Asian tropical fruits online. Built with Next.js 14, TypeScript, Tailwind CSS, and integrated with Supabase and Resend for backend services.
 
-## 🌟 Features
+## 🚀 Features
 
-- **Product Catalog**: Browse fresh, organic, and exotic fruits with detailed descriptions and reviews
-- **Shopping Cart**: Add items to cart with persistent localStorage storage
-- **Secure Payment**: Email-based payment system with 7 payment methods (Stripe, PayPal, Apple Pay, Venmo, Cash App, Zelle, Crypto)
-- **Order Confirmation**: Automated email with secure payment instructions
-- **Premium UI**: Gradient animations, hover effects, and world-class design
-- **Responsive Design**: Mobile-first design that works on all devices
-- **Fast & Modern**: Built with Next.js 16 and React 19 for optimal performance
-- **SEO Optimized**: Server-side rendering and metadata for better search visibility
+### Core E-commerce
+- ✅ Product catalog with 200+ tropical fruits
+- ✅ Advanced filtering (category, price, ratings)
+- ✅ Shopping cart with persistent storage
+- ✅ Multi-step checkout flow
+- ✅ Product reviews and ratings system
+- ✅ Wishlist functionality
 
-## 🚀 Getting Started
+### Payment System
+- ✅ 7 Payment methods: Stripe, PayPal, Apple Pay, Venmo, Cash App, Zelle, Cryptocurrency
+- ✅ Order confirmation emails
+- ✅ Payment instructions via email
 
-### Prerequisites
+### Customer Features
+- ✅ Newsletter signup
+- ✅ Subscribe & Save subscription boxes
+- ✅ Customer account dashboard
+- ✅ Order history tracking
 
-- Node.js 18+ and npm (or yarn/pnpm)
+### Content Pages
+- ✅ About page with company story
+- ✅ FAQ section
+- ✅ Blog, Press & Media
+- ✅ Customer reviews showcase
+- ✅ Corporate orders section
+
+### Legal & Compliance
+- ✅ Terms of Service, Privacy Policy, Refund Policy
+- ✅ CCPA Opt-Out Form
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| **Framework** | Next.js 14 with TypeScript |
+| **Styling** | Tailwind CSS |
+| **State Management** | React Hooks + Context API |
+| **Database** | Supabase (PostgreSQL) |
+| **Email Service** | Resend API |
+| **Hosting** | Vercel |
+
+## 📋 Prerequisites
+
+- Node.js 18+ and npm/yarn
+- GitHub account
+- Supabase account (free tier)
+- Resend account (free tier)
+- Vercel account (free tier)
 
 ### Local Development
 
