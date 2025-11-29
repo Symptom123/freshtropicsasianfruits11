@@ -41,11 +41,11 @@ export const FRUITS: Fruit[] = [
     category: 'tropical',
     price: 49,
     originalPrice: 49,
-    image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+    image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Mango_Habenaro_3.jpg?v=1762459381',
     images: [
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_111657.jpg?v=1762459671',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256'
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Mango_Habenaro_3.jpg?v=1762459381',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243'
     ],
     description: 'Bee Mine Honey Box: Mango Habanero EditionSweet. Spicy. Irresistibly Giftable.\nLooking for the perfect gift that’s as bold and unique as your favorite',
     rating: 4.9,
@@ -78,9 +78,9 @@ export const FRUITS: Fruit[] = [
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
     images: [
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/1ctWildflower3.jpg?v=1762459185'
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083145.jpg?v=1762459642',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123'
     ],
     description: 'Sending You Sunshine Pinkglow® Pink Pineapple Gift Box\nBrighten someone’s day with a burst of tropical sunshine!The Pinkglow® Pink Pineapple is a rare',
     rating: 4.6,
@@ -95,9 +95,9 @@ export const FRUITS: Fruit[] = [
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_102400.jpg?v=1762459649',
     images: [
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_102400.jpg?v=1762459649',
       'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190'
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123'
     ],
     description: 'Congratulations Pinkglow® Pink Pineapple Gift Box\nWhen the moment calls for celebration, do it with something truly unforgettable — the Pinkglow® Pink',
     rating: 4.6,
@@ -112,10 +112,9 @@ export const FRUITS: Fruit[] = [
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_101240.jpg?v=1762459649',
     images: [
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_101240.jpg?v=1762459649',
       'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123'
     ],
     description: 'Happy Anniversary Pinkglow® Pink Pineapple Gift Box\nCelebrate your love story with something as rare and sweet as the bond you share — the Pinkglow® P',
     rating: 5,
@@ -181,9 +180,9 @@ export const FRUITS: Fruit[] = [
     originalPrice: 129,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Taste_of_the_tropics_w-Kumquat_Dad_3.jpg?v=1759439266',
     images: [
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MothersDay_PG1.jpg?v=1762459648',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
-      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123'
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Taste_of_the_tropics_w-Kumquat_Dad_3.jpg?v=1759439266',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Rainbow_Mangos_8lbs_3.jpg?v=1762458371',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243'
     ],
     description: 'Dad’s Taste of the Tropics Box\nA Bold, Fresh Gift for the Dad Who’s Got Good Taste\nTreat Dad to a fruit-packed adventure with 14 lbs of premium tropic',
     rating: 4.9,
