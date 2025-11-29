@@ -6,6 +6,7 @@ export interface Fruit {
   price: number;
   originalPrice?: number;
   image: string;
+  images?: string[]; // Gallery of product images
   description: string;
   rating: number;
   reviews: number;

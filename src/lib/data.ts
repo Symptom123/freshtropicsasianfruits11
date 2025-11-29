@@ -1,4 +1,4 @@
-import { Fruit } from '@/types';
+﻿import { Fruit } from '@/types';
 
 export const FRUITS: Fruit[] = [
   {
@@ -8,6 +8,11 @@ export const FRUITS: Fruit[] = [
     price: 39.99,
     originalPrice: 39.99,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_111657.jpg?v=1762459671',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_111657.jpg?v=1762459671',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256'
+    ],
     description: '\nUnbeelieveably Thankful Honey Box – Florida Wildflower EditionUnbeelieveably Thankful. Undeniably Delicious.\nThis season, show your gratitude the swe',
     rating: 4.9,
     reviews: 202,
@@ -20,6 +25,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/1ctWildflower3.jpg?v=1762459185'
+    ],
     description: 'Bee Mine Honey Box: Florida Wildflower Edition\nPure. Floral. Irresistibly Giftable.\nLooking for a gift as naturally sweet and charming as your favorit',
     rating: 5,
     reviews: 70,
@@ -32,6 +42,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_111657.jpg?v=1762459671',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256'
+    ],
     description: 'Bee Mine Honey Box: Mango Habanero EditionSweet. Spicy. Irresistibly Giftable.\nLooking for the perfect gift that’s as bold and unique as your favorite',
     rating: 4.9,
     reviews: 182,
@@ -44,6 +59,12 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'Happy Birthday Pinkglow® Pink Pineapple Gift Box\nCelebrate their special day with a burst of tropical sunshine!The Pinkglow® Pink Pineapple is a rare,',
     rating: 5,
     reviews: 236,
@@ -56,6 +77,11 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/1ctWildflower3.jpg?v=1762459185'
+    ],
     description: 'Sending You Sunshine Pinkglow® Pink Pineapple Gift Box\nBrighten someone’s day with a burst of tropical sunshine!The Pinkglow® Pink Pineapple is a rare',
     rating: 4.6,
     reviews: 342,
@@ -68,6 +94,11 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_102400.jpg?v=1762459649',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190'
+    ],
     description: 'Congratulations Pinkglow® Pink Pineapple Gift Box\nWhen the moment calls for celebration, do it with something truly unforgettable — the Pinkglow® Pink',
     rating: 4.6,
     reviews: 180,
@@ -80,6 +111,12 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_101240.jpg?v=1762459649',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'Happy Anniversary Pinkglow® Pink Pineapple Gift Box\nCelebrate your love story with something as rare and sweet as the bond you share — the Pinkglow® P',
     rating: 5,
     reviews: 182,
@@ -92,6 +129,11 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MothersDay_PG1.jpg?v=1762459648',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'Happy Mother’s Day Pinkglow® Pink Pineapple Gift Box\nThis Mother’s Day, celebrate the most special woman in your life with a gift as rare and beautifu',
     rating: 5,
     reviews: 169,
@@ -104,6 +146,11 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083145.jpg?v=1762459642',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_102400.jpg?v=1762459649',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123'
+    ],
     description: 'Pink Pineapple Appreciation Box\nA Sweet Way to Say “We Appreciate You”\nShow your team just how much they mean to you with the ultimate tropical treat.',
     rating: 4.6,
     reviews: 171,
@@ -116,6 +163,11 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_092359.jpg?v=1762459641',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_101240.jpg?v=1762459649',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650'
+    ],
     description: 'The Ultimate Pink Pineapple Gift Box for Dad\nOne-of-a-Kind Fruit for a One-of-a-Kind Dad\nGive Dad something bold, rare, and seriously impressive—just ',
     rating: 4.6,
     reviews: 57,
@@ -128,6 +180,11 @@ export const FRUITS: Fruit[] = [
     price: 129,
     originalPrice: 129,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Taste_of_the_tropics_w-Kumquat_Dad_3.jpg?v=1759439266',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MothersDay_PG1.jpg?v=1762459648',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123'
+    ],
     description: 'Dad’s Taste of the Tropics Box\nA Bold, Fresh Gift for the Dad Who’s Got Good Taste\nTreat Dad to a fruit-packed adventure with 14 lbs of premium tropic',
     rating: 4.9,
     reviews: 247,
@@ -140,6 +197,11 @@ export const FRUITS: Fruit[] = [
     price: 129,
     originalPrice: 129,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/TropiSpringMOM3_07f3091b-bd05-4382-bf46-a082086bcd63.jpg?v=1759439265',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083145.jpg?v=1762459642',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650'
+    ],
     description: 'Tropi Spring Mom Box 🌸🍍Show Mom just how sweet she is with a limited-edition tropical box bursting with color, flavor, and love! 💛\nThis 14-lb box i',
     rating: 5,
     reviews: 128,
@@ -152,6 +214,11 @@ export const FRUITS: Fruit[] = [
     price: 99,
     originalPrice: 99,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Easter_TasteoftheTropics_v3.jpg?v=1762459636',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_092359.jpg?v=1762459641',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: '🐣🌴 The Taste the Tropics: Easter Edition 🌴🐣Celebrate Easter with a fruity surprise that’s way better than candy. This limited-time box is filled w',
     rating: 4.6,
     reviews: 193,
@@ -164,6 +231,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Group_7509_3.png?v=1762459540',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Taste_of_the_tropics_w-Kumquat_Dad_3.jpg?v=1759439266',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Rainbow_Mangos_8lbs_3.jpg?v=1762458371',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243'
+    ],
     description: 'Get ready to turn up the heat with Desbry Plantain Chips Spicy with Lime! Zesty lime meets fiery spice in a bold flavor explosion that’ll ignite your ',
     rating: 4.7,
     reviews: 299,
@@ -176,6 +248,11 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/EasterPine3.jpg?v=1762459601',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/TropiSpringMOM3_07f3091b-bd05-4382-bf46-a082086bcd63.jpg?v=1759439265',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MixedGuava8lbs2.jpg?v=1762458153',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: '🌸 The Magnificent Pinkglow® Pink Pineapple – Now in Stock! 🌸\nWe’re thrilled to bring you the exclusive Pinkglow® Pink Pineapple from Fresh Del Monte',
     rating: 5,
     reviews: 121,
@@ -188,6 +265,11 @@ export const FRUITS: Fruit[] = [
     price: 59,
     originalPrice: 59,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PlumSugar_3lbs-V3.png?v=1762459575',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Easter_TasteoftheTropics_v3.jpg?v=1762459636',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Rainbow_Mangos_8lbs_3.jpg?v=1762458371',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243'
+    ],
     description: 'Our Plum Sugar aka Prunus Salicina \'Sugar\' fruit is bursting with sweet, juicy flavor, making it perfect for snacking, baking, desserts, and preserves',
     rating: 4.5,
     reviews: 67,
@@ -200,6 +282,11 @@ export const FRUITS: Fruit[] = [
     price: 99,
     originalPrice: 99,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Jaboticaba_3lbs_v1.png?v=1762459552',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Group_7509_3.png?v=1762459540',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lime-Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lila_Chips_4ct_V1.jpg?v=1762459536'
+    ],
     description: 'Get ready to tantalize your taste buds with Jaboticaba, also known as Brazilian Grapes! These small, round fruits pack a punch with their sweet and ju',
     rating: 4.6,
     reviews: 286,
@@ -212,6 +299,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lime-Chips_4ct_V1.jpg?v=1762459536',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/EasterPine3.jpg?v=1762459601',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'Bring a burst of tropical zest to your snacking with Desbry ®  Malanga Lime Chips! Made from premium malanga roots and kissed with a splash of tangy l',
     rating: 4.7,
     reviews: 115,
@@ -224,6 +316,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lila_Chips_4ct_V1.jpg?v=1762459536',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PlumSugar_3lbs-V3.png?v=1762459575',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Manzanos8lbs3.jpg?v=1762458065',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/Temdadfaplate.jpg?v=1762457627'
+    ],
     description: 'Step into an exotic world of color and crunch with Desbry ®  Malanga Lila Chips! Made from fiber-rich purple malanga, these Gluten-free, GMO-free, kos',
     rating: 4.6,
     reviews: 230,
@@ -236,6 +333,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Plantain-salted-Chips_4ct_V1.jpg?v=1762459538',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Jaboticaba_3lbs_v1.png?v=1762459552',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Red_Dragon_3lbs_3.jpg?v=1759439126',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/YellowDragon5lbs2.jpg?v=1762457592'
+    ],
     description: 'Sometimes, simple is simply the best. GMO-free, gluten-free and Kosher Desbry®  Plantain Chips Lightly Salted are made from perfectly sliced fresh pic',
     rating: 4.9,
     reviews: 308,
@@ -248,6 +350,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Plantain-Garlic_Chips_4ct_V1.jpg?v=1762459538',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lime-Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Group_7509_3.png?v=1762459540',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lila_Chips_4ct_V1.jpg?v=1762459536'
+    ],
     description: 'For snackers who crave bold flavors and wholesome nutrition, Desbry ®  Plantain Chips Garlic deliver! Packed with potassium, Vitamin C, and fiber, the',
     rating: 4.7,
     reviews: 213,
@@ -260,6 +367,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Plantain-Sweet_Chips_4ct_V1.jpg?v=1762459539',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lila_Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lime-Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Group_7509_3.png?v=1762459540'
+    ],
     description: 'Satisfy your sweet tooth with a tropical twist! Desbry®  Plantain Chips Sweet are made from perfectly ripe, fresh picked plantains from Ecuador, deliv',
     rating: 4.9,
     reviews: 343,
@@ -368,6 +480,11 @@ export const FRUITS: Fruit[] = [
     price: 79,
     originalPrice: 79,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Pineappleguava3lbs2.jpg?v=1762459269',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Pineappleguava3lbs2.jpg?v=1762459269',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MixedGuava8lbs2.jpg?v=1762458153',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/Chinese-Guava-Box-3.jpg?v=1759439125'
+    ],
     description: 'Introducing our Exquisite Feijoa Pineapple Guava, also known as Guavasteen—your next tropical obsession! This extraordinary fruit is a delightful blen',
     rating: 5,
     reviews: 126,
@@ -620,6 +737,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Greendragonapples5lbs3.jpg?v=1759439198',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Greendragonapples5lbs3.jpg?v=1759439198',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/Temdadfaplate.jpg?v=1762457627',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Manzanos8lbs3.jpg?v=1762458065'
+    ],
     description: 'Introducing Green Dragon™ Apples, a distinct variety known for its sweet flavor profile and delicious aroma. Unlike the typical tartness of green appl',
     rating: 4.8,
     reviews: 336,
@@ -656,6 +778,11 @@ export const FRUITS: Fruit[] = [
     price: 89,
     originalPrice: 89,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Rainbow_Mangos_8lbs_3.jpg?v=1762458371',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243'
+    ],
     description: 'Get ready to enjoy our Honey Kiss Mango Box, specially grown and selected by Gary and Walter Zill. This is a late-season mango that\'s smaller than you',
     rating: 4.8,
     reviews: 306,
@@ -668,6 +795,12 @@ export const FRUITS: Fruit[] = [
     price: 89,
     originalPrice: 89,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/CoconutCream16lbs3.jpg?v=1759439178',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/CoconutCream16lbs3.jpg?v=1759439178',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Ataulfo_Mango_8lbs_3.jpg?v=1762457857'
+    ],
     description: 'What can we say, Coconut Cream and Mango together in the same sentence? Imagine that. Coconut cream mangoes are la crème de la crème of mangoes. These',
     rating: 4.9,
     reviews: 121,
@@ -860,6 +993,11 @@ export const FRUITS: Fruit[] = [
     price: 99,
     originalPrice: 99,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Tropikids_3_V1.jpg?v=1762458456',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Tropikids_3_V1.jpg?v=1762458456',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/TropiSpringMOM3_07f3091b-bd05-4382-bf46-a082086bcd63.jpg?v=1759439265',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250425_080737.png?v=1762459231'
+    ],
     description: 'Hey parents, grandparents, uncles, aunts—basically anyone who wants the kids in their lives to eat healthier while having a blast! By popular request,',
     rating: 4.9,
     reviews: 349,
@@ -992,6 +1130,11 @@ export const FRUITS: Fruit[] = [
     price: 79,
     originalPrice: 79,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Red_Dragon_3lbs_3.jpg?v=1759439126',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Red_Dragon_3lbs_3.jpg?v=1759439126',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/YellowDragon5lbs2.jpg?v=1762457592',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Red_Dragon_Flesh_5lbs_2.jpg?v=1762457603'
+    ],
     description: 'Red Dragon Fruit, also known as Pitaya or Pitahaya, is a beautiful tropical fruit in the cactus family with white flesh speckled with small, edible se',
     rating: 4.7,
     reviews: 232,
@@ -1340,6 +1483,11 @@ export const FRUITS: Fruit[] = [
     price: 87,
     originalPrice: 87,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/5MiniPineappleDiag.jpg?v=1759439112',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/5MiniPineappleDiag.jpg?v=1759439112',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/pineappletrioboxdiag.jpg?v=1759439111'
+    ],
     description: 'No, this is not from a pineapple bonsai. Besides being super cute, the mini pineapples are nicer than their traditional pineapple cousins. For starter',
     rating: 5,
     reviews: 267,
@@ -2474,3 +2622,5 @@ export const FRUITS: Fruit[] = [
     inStock: true
   }
 ];
+
+
