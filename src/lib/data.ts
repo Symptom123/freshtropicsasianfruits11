@@ -384,6 +384,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Yuca_Chips_4ct_V1.jpg?v=1759439264',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_111657.jpg?v=1762459671',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256'
+    ],
     description: 'Get ready to take a flavor-filled journey with Desbry® Yuca Chips! Made from the beloved yuca root, these chips are high in Vitamin C and fiber, offer',
     rating: 4.5,
     reviews: 338,
@@ -396,6 +401,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Plantain-mix_Chips_4ct_V1.jpg?v=1762459539',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/1ctWildflower3.jpg?v=1762459185'
+    ],
     description: 'If you\'re a plantain lover in search of a rainbow of flavors, look no further! Our 4 ct Desbry®  Plantain Chip Sampler box has got you covered with th',
     rating: 4.8,
     reviews: 144,
@@ -408,6 +418,11 @@ export const FRUITS: Fruit[] = [
     price: 25,
     originalPrice: 25,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/TropicalFruitBox-GiftCard.jpg?v=1762457575',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083124.jpg?v=1762459623',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190'
+    ],
     description: 'Want to send some Tropical or Exotic Fruits and roots but are not sure what they want? Here is the perfect solution birthdays, holidays, or \"just beca',
     rating: 4.6,
     reviews: 109,
@@ -420,6 +435,12 @@ export const FRUITS: Fruit[] = [
     price: 129,
     originalPrice: 129,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/BirthdayBox3.jpg?v=1759439259',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'Celebrate birthdays the Tropi way! Introducing our brand-new TropiBirthday Fruit Box, a yummy collection of nature\'s sweetest treasures to make any bi',
     rating: 4.6,
     reviews: 165,
@@ -432,6 +453,11 @@ export const FRUITS: Fruit[] = [
     price: 39.99,
     originalPrice: 39.99,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Mango_Habenaro_3.jpg?v=1762459381',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'A Sweet and Spicy Treat for Your Taste Buds\nIf you love the bold combo of sweet and spicy, our Mango Habanero Honey is your new go-to. Infused with fr',
     rating: 5,
     reviews: 231,
@@ -444,6 +470,11 @@ export const FRUITS: Fruit[] = [
     price: 39.99,
     originalPrice: 39.99,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/2ct_Wildflower_3.jpg?v=1759439256',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_102400.jpg?v=1762459649',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123'
+    ],
     description: 'Looking for a sweet gift for a honey lover? Look no further. Discover the sweet essence of Florida with our exquisite Wildflower Honey BEE MINE gift b',
     rating: 4.8,
     reviews: 147,
@@ -456,6 +487,11 @@ export const FRUITS: Fruit[] = [
     price: 69,
     originalPrice: 69,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/FardDates2ct2.jpg?v=1762459316',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_101240.jpg?v=1762459649',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650'
+    ],
     description: 'Sweet and Tasty Fard Dates\nThese Fard Dates come from Eastern Oman, where the hot, dry climate helps them grow perfectly. The name “Fard” comes from t',
     rating: 4.8,
     reviews: 235,
@@ -468,6 +504,11 @@ export const FRUITS: Fruit[] = [
     price: 89,
     originalPrice: 89,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/KhalaDates2qt2.jpg?v=1762459273',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MothersDay_PG1.jpg?v=1762459648',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123'
+    ],
     description: 'Get ready to fall in love with Khalas Dates, the crown jewel of Omani agriculture. These dates are a treat you won’t want to miss, combining rich hist',
     rating: 4.7,
     reviews: 88,
@@ -497,6 +538,11 @@ export const FRUITS: Fruit[] = [
     price: 10,
     originalPrice: 10,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/1ctMangoHabanero3.jpg?v=1762459185',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_083145.jpg?v=1762459642',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_100512.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650'
+    ],
     description: 'A sweet and spicy treat for your taste buds\nIf you love the combination of sweet and spicy flavors, you\'ll love our Mango Habanero Honey. This honey i',
     rating: 4.9,
     reviews: 338,
@@ -509,6 +555,11 @@ export const FRUITS: Fruit[] = [
     price: 79,
     originalPrice: 79,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250426_092359.jpg?v=1762459641',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'Discover the allure of the Dominican Republic with Francine Premium Mango Box! These are basically the same variety of the coveted Haitian Mangos but ',
     rating: 4.7,
     reviews: 76,
@@ -521,6 +572,11 @@ export const FRUITS: Fruit[] = [
     price: 65,
     originalPrice: 65,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250425_080737.png?v=1762459231',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Taste_of_the_tropics_w-Kumquat_Dad_3.jpg?v=1759439266',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Rainbow_Mangos_8lbs_3.jpg?v=1762458371',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243'
+    ],
     description: 'Introducing the TropiMama Fruit Box, exclusively available at Tropical Fruit Box, where we bring the most unique and delightful tropical flavors direc',
     rating: 4.7,
     reviews: 301,
@@ -533,6 +589,11 @@ export const FRUITS: Fruit[] = [
     price: 69,
     originalPrice: 69,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Sugarmangos8lbs2.jpg?v=1762459225',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/TropiSpringMOM3_07f3091b-bd05-4382-bf46-a082086bcd63.jpg?v=1759439265',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MixedGuava8lbs2.jpg?v=1762458153',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'Embark on a sweet journey with our Sugar Mangos – the perfect pocket-sized treat for those who love to indulge in nature\'s candy on the move! These mi',
     rating: 4.8,
     reviews: 343,
@@ -545,6 +606,11 @@ export const FRUITS: Fruit[] = [
     price: 69,
     originalPrice: 69,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MountainPapaya3.jpg?v=1762459216',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Easter_TasteoftheTropics_v3.jpg?v=1762459636',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Rainbow_Mangos_8lbs_3.jpg?v=1762458371',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243'
+    ],
     description: 'Meet the mountain papaya, a cool cousin of the regular papaya, but with its own zing! At Tropical Fruit Box, we\'re super excited to bring you this awe',
     rating: 4.5,
     reviews: 314,
@@ -557,6 +623,11 @@ export const FRUITS: Fruit[] = [
     price: 0.25,
     originalPrice: 0.25,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/logo_988318eb-5f2b-4d0c-807b-239eac78d408.png?v=1762459216',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Group_7509_3.png?v=1762459540',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lime-Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lila_Chips_4ct_V1.jpg?v=1762459536'
+    ],
     description: 'Support for groundbreaking carbon removal technologies.',
     rating: 4.5,
     reviews: 316,
@@ -569,6 +640,11 @@ export const FRUITS: Fruit[] = [
     price: 10,
     originalPrice: 10,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/1ctWildflower3.jpg?v=1762459185',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/EasterPine3.jpg?v=1762459601',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HappyBirthday_PG2.jpg?v=1762459650',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858'
+    ],
     description: 'Discover the sweet essence of Florida with our exquisite Wildflower Honey. Harvested from the lush, vibrant wildflower fields bathed in Florida\'s suns',
     rating: 4.7,
     reviews: 322,
@@ -581,6 +657,11 @@ export const FRUITS: Fruit[] = [
     price: 59,
     originalPrice: 59,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/RedStrawberries_Pinkglow2Love.jpg?v=1762459124',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PlumSugar_3lbs-V3.png?v=1762459575',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Manzanos8lbs3.jpg?v=1762458065',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/Temdadfaplate.jpg?v=1762457627'
+    ],
     description: 'Hey there! Have you heard about the awesome new Strawberry Pinkglow™ Double Delight Box from Tropical Fruit Box? Our team, who knows a ton about yummy',
     rating: 4.8,
     reviews: 311,
@@ -593,6 +674,11 @@ export const FRUITS: Fruit[] = [
     price: 65,
     originalPrice: 65,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Sttawberries_chocoandpinkglowLove2.jpg?v=1762459124',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Jaboticaba_3lbs_v1.png?v=1762459552',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Red_Dragon_3lbs_3.jpg?v=1759439126',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/YellowDragon5lbs2.jpg?v=1762457592'
+    ],
     description: 'Embark on a Journey of Exotic Indulgence \nDiscover the ultimate fusion of flavors in our Paradise Perfection Box, exclusively at Tropical Fruit Box. T',
     rating: 4.6,
     reviews: 223,
@@ -605,6 +691,11 @@ export const FRUITS: Fruit[] = [
     price: 30,
     originalPrice: 30,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MiracleBerries2.jpg?v=1762459121',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lime-Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Group_7509_3.png?v=1762459540',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lila_Chips_4ct_V1.jpg?v=1762459536'
+    ],
     description: 'Get ready to experience a miracle in every cube with our newest addition - Miracle Fruit Cubes! Straight from the innovators at Miracle Fruit Farm, we',
     rating: 5,
     reviews: 312,
@@ -617,6 +708,11 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/PinkGlowDM_Lifestyle_V1.jpg?v=1762459123',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lila_Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lime-Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Group_7509_3.png?v=1762459540'
+    ],
     description: ' \nWe now have the magnificent Pinkglow® Pink Pineapple from Fresh Del Monte in all its glory.\nWhat does the Pinkglow® Pink Pineapple taste like?\nThe t',
     rating: 4.7,
     reviews: 184,
@@ -629,6 +725,11 @@ export const FRUITS: Fruit[] = [
     price: 14.5,
     originalPrice: 14.5,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/enamel-mug-white-12-oz-right-65aeecf494d03.jpg?v=1762459120',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Group_7509_3.png?v=1762459540',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lime-Chips_4ct_V1.jpg?v=1762459536',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Malanga-Lila_Chips_4ct_V1.jpg?v=1762459536'
+    ],
     description: 'Every happy camper needs a unique camper mug. It\'s lightweight, durable and multifunctional. Use it for your favorite beverage or a hot meal, and atta',
     rating: 5,
     reviews: 298,
@@ -641,6 +742,11 @@ export const FRUITS: Fruit[] = [
     price: 26,
     originalPrice: 26,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/travel-mug-with-a-handle-white-25-oz-left-65aeecba7b413.jpg?v=1759439213',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Pineappleguava3lbs2.jpg?v=1762459269',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/MixedGuava8lbs2.jpg?v=1762458153',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/Chinese-Guava-Box-3.jpg?v=1759439125'
+    ],
     description: 'Sip in style and comfort with an elevated travel mug. With its sleek and durable design, you’ll love taking this mug wherever you go. It fits into mos',
     rating: 4.7,
     reviews: 129,
@@ -754,6 +860,11 @@ export const FRUITS: Fruit[] = [
     price: 29,
     originalPrice: 29,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Seamoss3bag3.jpg?v=1762459028',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Greendragonapples5lbs3.jpg?v=1759439198',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/Temdadfaplate.jpg?v=1762457627',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Manzanos8lbs3.jpg?v=1762458065'
+    ],
     description: 'We finally got Sea Moss also known as Irish Moss! We heard you for all these agonizing months with hundreds of phone calls, social media posts, commen',
     rating: 4.6,
     reviews: 142,
@@ -813,6 +924,11 @@ export const FRUITS: Fruit[] = [
     price: 39,
     originalPrice: 39,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/SoursopLeaves1Bag2.jpg?v=1762458761',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Rainbow_Mangos_8lbs_3.jpg?v=1762458371',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243'
+    ],
     description: 'Ahoy, soursop-lovers! After so many requests for Soursop leaves, we finally gave in, and here they are in all their glory. Although it\'s known by diff',
     rating: 4.8,
     reviews: 158,
@@ -825,6 +941,12 @@ export const FRUITS: Fruit[] = [
     price: 89,
     originalPrice: 89,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/create-your-own-tropical-roots-box-tropical-fruit-box-23351775559865.jpg?v=1762457513',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/CoconutCream16lbs3.jpg?v=1759439178',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/HoneyKiss12lbs3.jpg?v=1759439190',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Francismangos_2_3lbs_V1.jpg?v=1759439243',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Ataulfo_Mango_8lbs_3.jpg?v=1762457857'
+    ],
     description: 'You asked for it and we delivered! Pick your own roots, peppers, plantains, and other seasonal produce. How does it work? Choose above by clicking or ',
     rating: 4.9,
     reviews: 298,
@@ -1010,6 +1132,11 @@ export const FRUITS: Fruit[] = [
     price: 119,
     originalPrice: 119,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/create-your-own-tropical-fruit-box-tropical-fruit-box-23351774183609.jpg?v=1762457421',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Tropikids_3_V1.jpg?v=1762458456',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/TropiSpringMOM3_07f3091b-bd05-4382-bf46-a082086bcd63.jpg?v=1759439265',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250425_080737.png?v=1762459231'
+    ],
     description: 'Who are we to tell you what you like? This is why we created this box. Tropical Fruit Freedom!\nHow does it work? Choose above by clicking or tapping 3',
     rating: 4.7,
     reviews: 154,
@@ -1147,6 +1274,11 @@ export const FRUITS: Fruit[] = [
     price: 69,
     originalPrice: 69,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/Galanga3lbs1.jpg?v=1762458353',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Red_Dragon_3lbs_3.jpg?v=1759439126',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/YellowDragon5lbs2.jpg?v=1762457592',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Red_Dragon_Flesh_5lbs_2.jpg?v=1762457603'
+    ],
     description: 'Galangal is also known as Thai Ginger and it\'s basically a close cousin of your beloved Ginger that has more of a citrus punch in its flavor and it\'s ',
     rating: 4.8,
     reviews: 228,
@@ -1500,6 +1632,11 @@ export const FRUITS: Fruit[] = [
     price: 49,
     originalPrice: 49,
     image: 'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/CoffeandCacao1.jpg?v=1762458021',
+    images: [
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/5MiniPineappleDiag.jpg?v=1759439112',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/files/Photoroom_20250524_105459.jpg?v=1762457858',
+      'https://cdn.shopify.com/s/files/1/0054/9512/8152/products/pineappletrioboxdiag.jpg?v=1759439111'
+    ],
     description: 'Here is what we are thinking… Who doesn’t like Coffee and Chocolate? I can’t think of anyone but I’m sure you can come up with an ex that doesn’t. Wit',
     rating: 4.8,
     reviews: 135,
