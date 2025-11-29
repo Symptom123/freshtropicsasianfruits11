@@ -77,7 +77,8 @@ function ShopContent() {
           )}
         </div>
       </div>
-    )
+    </div>
+  )
 }
 
 export default function ShopPage() {
