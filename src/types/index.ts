@@ -198,6 +198,30 @@ export interface CategoryPerformance {
   topProduct: string;
 }
 
+// Product Comparison Types
+export interface ComparisonProduct extends Fruit {
+  nutrition: {
+    calories: number;
+    protein: number;
+    carbs: number;
+    fiber: number;
+    vitaminC: number;
+    potassium: number;
+  };
+  benefits: string[];
+  season: string;
+  shelfLife: string;
+  storage: string;
+  origin: string;
+}
+
+export interface ComparisonList {
+  id: string;
+  products: ComparisonProduct[];
+  createdAt: string;
+  updatedAt: string;
+}
+
 // API Response Types
 export interface ApiResponse<T> {
   success: boolean;

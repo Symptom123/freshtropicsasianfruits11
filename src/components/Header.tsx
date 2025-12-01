@@ -45,6 +45,10 @@ export default function Header(){
               Shop
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-300 to-amber-100 group-hover:w-full transition-all duration-500"></span>
             </Link>
+            <Link href="/comparison" className="relative text-amber-50 font-semibold text-sm uppercase tracking-wide hover:text-amber-200 transition-all duration-300 group">
+              Compare
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-300 to-amber-100 group-hover:w-full transition-all duration-500"></span>
+            </Link>
             <Link href="/shop?category=pinkglow" className="relative text-pink-200 font-bold text-sm uppercase tracking-wide hover:text-pink-100 transition-all duration-300 group">
               🌸 Pink Glow Pineapple
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-pink-300 to-pink-100 group-hover:w-full transition-all duration-500"></span>
@@ -126,6 +130,13 @@ export default function Header(){
             onClick={closeMobileMenu}
           >
             📰 Blog
+          </Link>
+          <Link 
+            href="/comparison" 
+            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            onClick={closeMobileMenu}
+          >
+            🍎 Compare
           </Link>
           <Link 
             href="/about" 
