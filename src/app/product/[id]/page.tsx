@@ -4,6 +4,8 @@ import PageLayout from '@/components/PageLayout'
 import Image from 'next/image'
 import { FRUITS } from '@/lib/data'
 import { useCart } from '@/context/CartContext'
+import ProductRatingForm from '@/components/ProductRatingForm'
+import CustomerReviews from '@/components/CustomerReviews'
 import { useState, use, useEffect } from 'react'
 
 export default function ProductPage({params}:{params:Promise<{id:string}>}){
@@ -131,6 +133,20 @@ export default function ProductPage({params}:{params:Promise<{id:string}>}){
               </button>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Rating and Reviews Section */}
+      <div className="bg-white mt-12 pt-12 border-t border-gray-200">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Customer Reviews Display */}
+          <CustomerReviews productId={id} />
+
+          {/* Rating Form */}
+          <ProductRatingForm 
+            productId={id} 
+            productName={product.name}
+          />
         </div>
       </div>
 
