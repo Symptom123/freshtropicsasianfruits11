@@ -76,6 +76,44 @@ export interface Customer {
   createdAt: string;
 }
 
+// Loyalty Types
+export interface LoyaltyTier {
+  name: 'Bronze' | 'Silver' | 'Gold' | 'Platinum';
+  pointsRequired: number;
+  discount: number;
+  benefits: string[];
+  icon: string;
+}
+
+export interface LoyaltyAccount {
+  userId: string;
+  totalPoints: number;
+  currentTier: 'Bronze' | 'Silver' | 'Gold' | 'Platinum';
+  pointsThisMonth: number;
+  redeemablePoints: number;
+  totalSpent: number;
+  referralCode: string;
+  referralRewards: number;
+  joinDate: string;
+  lastActivity: string;
+  milestones: {
+    firstPurchase: boolean;
+    fivePurchases: boolean;
+    tenPurchases: boolean;
+    birthday: boolean;
+  };
+}
+
+export interface PointsTransaction {
+  id: string;
+  userId: string;
+  type: 'purchase' | 'referral' | 'birthday' | 'redemption' | 'bonus';
+  points: number;
+  description: string;
+  date: string;
+  orderId?: string;
+}
+
 // API Response Types
 export interface ApiResponse<T> {
   success: boolean;
