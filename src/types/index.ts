@@ -222,6 +222,38 @@ export interface ComparisonList {
   updatedAt: string;
 }
 
+// Social Integration Types
+export interface UserGeneratedContent {
+  id: string;
+  userId: string;
+  userName: string;
+  userAvatar?: string;
+  productId: string;
+  productName: string;
+  imageUrl: string;
+  caption: string;
+  likes: number;
+  comments: number;
+  rating: number;
+  platform: 'instagram' | 'tiktok' | 'user-uploaded';
+  createdAt: string;
+  verified: boolean;
+}
+
+export interface SocialShare {
+  platform: 'facebook' | 'twitter' | 'instagram' | 'whatsapp' | 'linkedin';
+  url: string;
+  text: string;
+  imageUrl?: string;
+}
+
+export interface SocialLogin {
+  provider: 'google' | 'facebook' | 'apple';
+  email: string;
+  name: string;
+  avatar: string;
+}
+
 // API Response Types
 export interface ApiResponse<T> {
   success: boolean;
