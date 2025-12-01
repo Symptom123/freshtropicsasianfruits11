@@ -4,6 +4,7 @@ import { FRUITS } from "@/lib/data"
 import Link from "next/link"
 import NewsletterSignup from "@/components/NewsletterSignup"
 import PromoBanner from "@/components/PromoBanner"
+import TestimonialCarousel from "@/components/TestimonialCarousel"
 
 const FEATURED = FRUITS.slice(0, 4)
 const TOP_RATED = FRUITS.sort((a, b) => b.rating - a.rating).slice(0, 3)
@@ -351,6 +352,22 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link href="/reviews" className="inline-block bg-emerald-600 text-white font-bold px-8 py-3 rounded-lg hover:bg-emerald-700 transition-colors">See More Reviews</Link>
           </div>
+        </div>
+      </section>
+
+      {/* Testimonial Carousel Section */}
+      <section className="py-20 bg-gradient-to-br from-emerald-50 to-yellow-50">
+        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-10">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-black text-emerald-900 mb-4">What Our Customers Say</h2>
+            <p className="text-gray-600 text-lg">Swipe through real reviews from happy customers</p>
+          </div>
+
+          <TestimonialCarousel 
+            testimonials={TESTIMONIALS.slice(0, 10)}
+            autoPlay={true}
+            interval={6000}
+          />
         </div>
       </section>
 
