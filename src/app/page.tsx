@@ -80,7 +80,12 @@ export default function Home() {
   return (
     <PageLayout>
       <section className="min-h-screen bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-700 text-white flex items-center justify-center relative overflow-hidden py-12 md:py-0">
-        {/* Decorative emoji removed — replaced by a real hero image */}
+        {/* 3D Background Effect with Animated Gradient Orbs */}
+        <div className="absolute inset-0 bg-gradient-to-b from-emerald-900 via-emerald-800 to-emerald-700 opacity-60"></div>
+        
+        {/* Animated gradient orbs for 3D effect */}
+        <div className="absolute top-20 left-10 w-96 h-96 bg-amber-400 rounded-full blur-3xl opacity-10 animate-pulse"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-yellow-300 rounded-full blur-3xl opacity-10 animate-pulse" style={{ animationDelay: '1s' }}></div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto px-4 md:px-8 items-center relative z-10">
           <div className="space-y-6 md:space-y-8 animate-fade-in">
@@ -101,8 +106,9 @@ export default function Home() {
           </div>
 
           <div className="relative h-64 sm:h-80 md:h-96 animate-scale-in" style={{animationDelay: "0.3s"}}>
-            {/* subtle warm gradient behind the hero image */}
-            <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-yellow-300 rounded-3xl opacity-30"></div>
+            {/* subtle warm gradient behind the hero image with 3D depth */}
+            <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-yellow-300 rounded-3xl opacity-30 blur-lg"></div>
+            <div className="absolute -inset-2 bg-gradient-to-br from-amber-400 to-yellow-300 rounded-3xl opacity-10 blur-2xl"></div>
             <div className="absolute inset-0 flex items-center justify-center">
               <img
                 src="/hero/hero-image.jpg"
@@ -127,7 +133,10 @@ export default function Home() {
             {POPULAR_BOXES.map((fruit) => (
               <div key={fruit.id} className="relative group">
                 <div className="absolute -top-3 -right-3 z-10"><div className="bg-gradient-to-r from-amber-400 to-yellow-300 text-emerald-900 font-bold px-4 py-2 rounded-full shadow-lg text-xs">⭐ {fruit.rating}</div></div>
-                <ProductCard product={fruit} />
+                <div className="absolute -inset-1 bg-gradient-to-br from-amber-400/20 to-yellow-300/20 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative">
+                  <ProductCard product={fruit} />
+                </div>
               </div>
             ))}
           </div>
@@ -150,7 +159,10 @@ export default function Home() {
             {FEATURED.map((fruit) => (
               <div key={fruit.id} className="relative group">
                 <div className="absolute -top-3 -right-3 z-10"><div className="bg-gradient-to-r from-amber-400 to-yellow-300 text-emerald-900 font-bold px-4 py-2 rounded-full shadow-lg text-xs">NEW</div></div>
-                <ProductCard product={fruit} />
+                <div className="absolute -inset-1 bg-gradient-to-br from-amber-400/20 to-yellow-300/20 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative">
+                  <ProductCard product={fruit} />
+                </div>
               </div>
             ))}
           </div>
@@ -444,7 +456,10 @@ export default function Home() {
             {TOP_RATED.map((fruit) => (
               <div key={fruit.id} className="relative group">
                 <div className="absolute -top-3 -right-3 z-10"><div className="bg-gradient-to-r from-red-500 to-pink-500 text-white font-bold px-4 py-2 rounded-full shadow-lg text-xs">🏆 Top Rated</div></div>
-                <ProductCard product={fruit} />
+                <div className="absolute -inset-1 bg-gradient-to-br from-amber-400/20 to-yellow-300/20 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative">
+                  <ProductCard product={fruit} />
+                </div>
               </div>
             ))}
           </div>
