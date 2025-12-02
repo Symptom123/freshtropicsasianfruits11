@@ -115,10 +115,10 @@ export default function Home() {
       </section>
 
       {/* Popular Fruit Boxes Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-emerald-900 via-emerald-800 to-emerald-700 border-t-4 border-amber-400">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="text-center mb-16 animate-fade-in">
-            <p className="text-emerald-600 font-bold tracking-widest uppercase text-sm mb-2">Featured Collection</p>
+            <p className="text-amber-300 font-bold tracking-widest uppercase text-sm mb-2">Featured Collection</p>
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Popular Fruit Boxes</h2>
             <p className="text-gray-600 text-lg">Hand-selected tropical fruits, fresh from our partner farms</p>
           </div>
@@ -139,11 +139,11 @@ export default function Home() {
       </section>
 
       {/* Featured This Week Section */}
-      <section className="py-20 bg-gradient-to-br from-emerald-50 to-yellow-50">
+      <section className="py-20 bg-gradient-to-b from-emerald-800 via-emerald-700 to-emerald-600 border-t-4 border-amber-400">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="text-center mb-16 animate-fade-in">
-            <p className="text-emerald-600 font-bold tracking-widest uppercase text-sm mb-2">Bestsellers</p>
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Featured This Week</h2>
+            <p className="text-amber-300 font-bold tracking-widest uppercase text-sm mb-2">Bestsellers</p>
+            <h2 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 mb-4">Featured This Week</h2>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -158,16 +158,16 @@ export default function Home() {
       </section>
 
       {/* Promotional Banner */}
-      <section className="py-16 px-6 sm:px-8 lg:px-10 bg-white">
+      <section className="py-16 px-6 sm:px-8 lg:px-10 bg-gradient-to-r from-emerald-900 to-emerald-800 border-y-4 border-amber-400">
         <div className="max-w-7xl mx-auto">
           <PromoBanner variant="banner" />
         </div>
       </section>
 
       {/* Featured Collections Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-20 bg-gradient-to-b from-emerald-900 via-emerald-800 to-emerald-700">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-          <h2 className="text-4xl font-black text-emerald-900 mb-12 text-center">Shop Collections</h2>
+          <h2 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 mb-12 text-center">Shop Collections</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
             <Link href="/shop?collection=bestsellers" className="group relative overflow-hidden rounded-xl h-64 bg-gradient-to-br from-orange-400 to-red-500 shadow-lg hover:shadow-2xl transition-all">
@@ -212,13 +212,13 @@ export default function Home() {
       </section>
 
       {/* Our Freshness Guarantee Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-emerald-800 via-emerald-700 to-emerald-600">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="space-y-4 md:space-y-8">
               <div>
-                <h2 className="text-3xl md:text-5xl font-black text-emerald-900 mb-4">Our Freshness Guarantee</h2>
-                <p className="text-base md:text-xl text-gray-700 font-semibold mb-6">If for ANY reason, your fruit is not fresh, reach out and we'll make it right!</p>
+                <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 mb-4">Our Freshness Guarantee</h2>
+                <p className="text-base md:text-xl text-amber-50 font-semibold mb-6">If for ANY reason, your fruit is not fresh, reach out and we'll make it right!</p>
               </div>
               
               <div className="space-y-6">
@@ -248,18 +248,18 @@ export default function Home() {
               <Link href="/refund" className="inline-block bg-emerald-600 text-white font-bold px-8 py-3 rounded-lg hover:bg-emerald-700 transition-colors">Learn More</Link>
             </div>
 
-            <div className="bg-gradient-to-br from-emerald-100 to-yellow-100 rounded-2xl p-6 md:p-12 text-center">
+            <div className="bg-emerald-900/40 backdrop-blur-md rounded-2xl p-6 md:p-12 text-center border border-amber-400/30">
               <div className="text-6xl md:text-8xl mb-4 md:mb-6">🍍</div>
-              <h3 className="text-2xl md:text-3xl font-black text-emerald-900 mb-3 md:mb-4">Fresh From Farm</h3>
-              <p className="text-sm md:text-base text-gray-700 font-semibold mb-6 md:mb-8">Delivered straight to your doorstep within 7 days of harvest</p>
+              <h3 className="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-100 mb-3 md:mb-4">Fresh From Farm</h3>
+              <p className="text-sm md:text-base text-amber-50 font-semibold mb-6 md:mb-8">Delivered straight to your doorstep within 7 days of harvest</p>
               <div className="flex flex-col sm:flex-row gap-4 md:gap-8 justify-center mb-6 md:mb-8">
                 <div className="text-center">
-                  <p className="text-2xl md:text-3xl font-black text-emerald-600">206+</p>
-                  <p className="text-xs md:text-sm text-gray-600">Products</p>
+                  <p className="text-2xl md:text-3xl font-black text-amber-300">206+</p>
+                  <p className="text-xs md:text-sm text-amber-200">Products</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl md:text-3xl font-black text-emerald-600">50K+</p>
-                  <p className="text-xs md:text-sm text-gray-600">Happy Customers</p>
+                  <p className="text-2xl md:text-3xl font-black text-amber-300">50K+</p>
+                  <p className="text-xs md:text-sm text-amber-200">Happy Customers</p>
                 </div>
               </div>
             </div>
@@ -317,50 +317,50 @@ export default function Home() {
       </section>
 
       {/* Customer Reviews/Testimonials Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-emerald-700 via-emerald-600 to-emerald-700">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Tropi ❤️</h2>
-            <div className="flex justify-center items-center gap-3 mb-6">
+            <h2 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 mb-4">Tropi ❤️</h2>
+            <div className="flex justify-center items-center gap-3 mb-6 flex-wrap">
               <div className="flex gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className="text-2xl">⭐</span>
                 ))}
               </div>
-              <p className="text-xl font-bold text-emerald-600">Excellent 4.9 average</p>
-              <a href="https://www.reviews.io/company-reviews/store/tropical-fruit-box1" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-700 font-semibold underline">Read all 50,000+ reviews</a>
+              <p className="text-xl font-bold text-amber-300">Excellent 4.9 average</p>
+              <a href="https://www.reviews.io/company-reviews/store/tropical-fruit-box1" target="_blank" rel="noopener noreferrer" className="text-amber-300 hover:text-amber-200 font-semibold underline">Read all 50,000+ reviews</a>
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {TESTIMONIALS.map((testimonial, idx) => (
-              <div key={idx} className="bg-gradient-to-br from-emerald-50 to-yellow-50 rounded-lg p-6 border-2 border-emerald-200 hover:border-emerald-400 transition-all">
+              <div key={idx} className="bg-emerald-900/40 backdrop-blur-md rounded-lg p-6 border border-amber-400/30 hover:border-amber-300/60 transition-all">
                 <div className="flex gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <span key={i} className="text-lg">⭐</span>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 leading-relaxed italic">"{testimonial.text}"</p>
-                <div className="pt-4 border-t border-emerald-200">
-                  <p className="font-bold text-emerald-900">{testimonial.author}</p>
-                  <p className="text-sm text-gray-600">{testimonial.verified && '✓ Verified Customer'} • {testimonial.location} • {testimonial.date}</p>
+                <p className="text-amber-50 mb-4 leading-relaxed italic">"{testimonial.text}"</p>
+                <div className="pt-4 border-t border-amber-400/20">
+                  <p className="font-bold text-amber-200">{testimonial.author}</p>
+                  <p className="text-sm text-amber-100">{testimonial.verified && '✓ Verified Customer'} • {testimonial.location} • {testimonial.date}</p>
                 </div>
               </div>
             ))}
           </div>
 
           <div className="text-center mt-12">
-            <Link href="/reviews" className="inline-block bg-emerald-600 text-white font-bold px-8 py-3 rounded-lg hover:bg-emerald-700 transition-colors">See More Reviews</Link>
+            <Link href="/reviews" className="inline-block bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-300 text-emerald-900 font-bold px-8 py-3 rounded-lg hover:shadow-lg hover:scale-105 transition-all">See More Reviews</Link>
           </div>
         </div>
       </section>
 
       {/* Testimonial Carousel Section */}
-      <section className="py-20 bg-gradient-to-br from-emerald-50 to-yellow-50">
+      <section className="py-20 bg-gradient-to-br from-emerald-800 via-emerald-700 to-emerald-600 border-y-4 border-amber-400">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-black text-emerald-900 mb-4">What Our Customers Say</h2>
-            <p className="text-gray-600 text-lg">Swipe through real reviews from happy customers</p>
+            <h2 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 mb-4">What Our Customers Say</h2>
+            <p className="text-amber-50 text-lg">Swipe through real reviews from happy customers</p>
           </div>
 
           <TestimonialCarousel 
@@ -372,33 +372,33 @@ export default function Home() {
       </section>
 
       {/* FAQs Section */}
-      <section className="py-20 bg-gradient-to-br from-emerald-50 to-yellow-50">
+      <section className="py-20 bg-gradient-to-b from-emerald-700 via-emerald-600 to-emerald-700">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-black text-emerald-900 mb-4">Frequently Asked Fruity Questions</h2>
-            <p className="text-gray-600 text-lg">Got questions? We have answers!</p>
+            <h2 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 mb-4">Frequently Asked Fruity Questions</h2>
+            <p className="text-amber-50 text-lg">Got questions? We have answers!</p>
           </div>
 
           <div className="space-y-4 mb-12">
             {FAQS.map((faq, idx) => (
-              <details key={idx} className="group bg-white border-2 border-emerald-200 rounded-lg p-6 hover:border-emerald-400 transition-colors">
-                <summary className="font-bold text-emerald-900 cursor-pointer flex items-center justify-between hover:text-emerald-700">
+              <details key={idx} className="group bg-emerald-900/40 backdrop-blur-md border border-amber-400/30 rounded-lg p-6 hover:border-amber-300/60 transition-colors">
+                <summary className="font-bold text-amber-200 cursor-pointer flex items-center justify-between hover:text-amber-100">
                   <span>{faq.q}</span>
                   <span className="text-2xl group-open:rotate-180 transition-transform">+</span>
                 </summary>
-                <p className="text-gray-700 mt-4 leading-relaxed">{faq.a}</p>
+                <p className="text-amber-50 mt-4 leading-relaxed">{faq.a}</p>
               </details>
             ))}
           </div>
 
-          <div className="bg-white border-2 border-emerald-300 rounded-lg p-8 text-center">
-            <h3 className="text-2xl font-bold text-emerald-900 mb-3">Still Have Questions?</h3>
-            <p className="text-gray-600 mb-6">Our customer service team is available 24/7 to help!</p>
+          <div className="bg-emerald-900/40 backdrop-blur-md border border-amber-400/30 rounded-lg p-8 text-center">
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-100 mb-3">Still Have Questions?</h3>
+            <p className="text-amber-50 mb-6">Our customer service team is available 24/7 to help!</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+17867584787" className="bg-emerald-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors">
+              <a href="tel:+17867584787" className="bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-300 text-emerald-900 font-bold px-6 py-3 rounded-lg hover:shadow-lg hover:scale-105 transition-all">
                 📞 (786) 758-4787
               </a>
-              <a href="mailto:hello@freshtropicsasianfruits.com" className="bg-yellow-400 text-emerald-900 font-bold px-6 py-3 rounded-lg hover:bg-yellow-300 transition-colors">
+              <a href="mailto:hello@freshtropicsasianfruits.com" className="bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-300 text-emerald-900 font-bold px-6 py-3 rounded-lg hover:shadow-lg hover:scale-105 transition-all">
                 ✉️ Email Us
               </a>
             </div>
@@ -407,25 +407,25 @@ export default function Home() {
       </section>
 
       {/* Newsletter Banner */}
-      <section className="py-16 bg-gradient-to-br from-amber-100 to-yellow-100">
+      <section className="py-16 bg-gradient-to-r from-emerald-900 to-emerald-800 border-y-4 border-amber-400">
         <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-10">
           <NewsletterSignup variant="banner" />
         </div>
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-emerald-800 via-emerald-700 to-emerald-600">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Why Choose Us?</h2>
+            <h2 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 mb-4">Why Choose Us?</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {WHY_US.map((item, idx) => (
-              <div key={idx} className="p-8 border-2 border-emerald-100 rounded-2xl hover:border-amber-400 hover:shadow-xl transition-all duration-300 animate-scale-in" style={{animationDelay: `${0.1 * (idx + 1)}s`}}>
+              <div key={idx} className="p-8 bg-emerald-900/40 backdrop-blur-md border border-amber-400/30 rounded-2xl hover:border-amber-300/60 hover:shadow-xl transition-all duration-300 animate-scale-in" style={{animationDelay: `${0.1 * (idx + 1)}s`}}>
                 <div className="text-5xl mb-4">{item.icon}</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-600">{item.description}</p>
+                <h3 className="text-2xl font-bold text-amber-200 mb-2">{item.title}</h3>
+                <p className="text-amber-50">{item.description}</p>
               </div>
             ))}
           </div>
@@ -433,11 +433,11 @@ export default function Home() {
       </section>
 
       {/* Top Rated Picks */}
-      <section className="py-20 bg-gradient-to-br from-emerald-50 to-yellow-50">
+      <section className="py-20 bg-gradient-to-b from-emerald-700 via-emerald-600 to-emerald-700 border-y-4 border-amber-400">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="text-center mb-16 animate-fade-in">
-            <p className="text-emerald-600 font-bold tracking-widest uppercase text-sm mb-2">Customer Favorites</p>
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Top Rated Picks</h2>
+            <p className="text-amber-300 font-bold tracking-widest uppercase text-sm mb-2">Customer Favorites</p>
+            <h2 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 mb-4">Top Rated Picks</h2>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
