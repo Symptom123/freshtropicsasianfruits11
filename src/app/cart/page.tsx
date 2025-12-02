@@ -1,6 +1,7 @@
 ﻿"use client"
 
 import PageLayout from "@/components/PageLayout"
+import FreeShippingBanner from "@/components/FreeShippingBanner"
 import { useCart } from "@/lib/cart"
 import { PAYMENT_METHODS } from "@/config/payments"
 import Link from "next/link"
@@ -22,8 +23,9 @@ export default function CartPage() {
   }, [checkoutStep])
 
   const MINIMUM_ORDER = 120
+  const FREE_SHIPPING_THRESHOLD = 286
   const subtotal = total
-  const shipping = subtotal > 50 ? 0 : 5.99
+  const shipping = subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : 5.99
   const tax = Math.round(subtotal * 0.1 * 100) / 100
   const deliveryGuaranteeCharge = deliveryGuarantee ? 2.25 : 0
   const finalTotal = subtotal + shipping + tax + deliveryGuaranteeCharge
@@ -162,6 +164,7 @@ export default function CartPage() {
 
   return (
     <PageLayout>
+      <FreeShippingBanner currentTotal={subtotal} freeShippingThreshold={FREE_SHIPPING_THRESHOLD} />
       <div className="bg-gradient-to-br from-gray-50 to-white min-h-screen py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}

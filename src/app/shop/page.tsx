@@ -2,12 +2,15 @@
 
 import { useState, useEffect, Suspense, useMemo } from 'react'
 import { useSearchParams } from 'next/navigation'
+import { useCart } from '@/lib/cart'
 import PageLayout from '@/components/PageLayout'
+import FreeShippingBanner from '@/components/FreeShippingBanner'
 import ProductCard from '@/components/ProductCard'
 import { FRUITS } from '@/lib/data'
 
 function ShopContent() {
   const searchParams = useSearchParams()
+  const { total } = useCart()
   const categoryParam = searchParams?.get('category') || 'all'
   const collectionParam = searchParams?.get('collection') || null
   
@@ -165,6 +168,7 @@ function ShopContent() {
 
   return (
     <div className="bg-white">
+      <FreeShippingBanner currentTotal={total} freeShippingThreshold={286} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex justify-between items-start mb-8">
           <div>
