@@ -15,7 +15,7 @@ export default function ContactPage(){
                 <input 
                   type="text"
                   placeholder="Your full name"
-                  className="w-full px-4 py-3 border-2 border-amber-400/40 bg-emerald-900/40 backdrop-blur-sm rounded-lg focus:outline-none focus:border-amber-300 text-amber-50 font-semibold placeholder-amber-200/60"
+                  className="w-full px-4 py-4 border-3 border-amber-400 bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 text-gray-900 font-bold placeholder-gray-800 text-base"
                 />
               </div>
               
@@ -24,7 +24,7 @@ export default function ContactPage(){
                 <input 
                   type="email"
                   placeholder="your.email@example.com"
-                  className="w-full px-4 py-3 border-2 border-amber-400/40 bg-emerald-900/40 backdrop-blur-sm rounded-lg focus:outline-none focus:border-amber-300 text-amber-50 font-semibold placeholder-amber-200/60"
+                  className="w-full px-4 py-4 border-3 border-amber-400 bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 text-gray-900 font-bold placeholder-gray-800 text-base"
                 />
               </div>
               
@@ -32,7 +32,7 @@ export default function ContactPage(){
                 <label className="block text-sm font-bold text-amber-100 mb-2">Message</label>
                 <textarea 
                   placeholder="Tell us what you need..."
-                  className="w-full px-4 py-3 border-2 border-amber-400/40 bg-emerald-900/40 backdrop-blur-sm rounded-lg focus:outline-none focus:border-amber-300 text-amber-50 font-semibold placeholder-amber-200/60"
+                  className="w-full px-4 py-4 border-3 border-amber-400 bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 text-gray-900 font-bold placeholder-gray-800 text-base"
                   rows={5}
                 />
               </div>

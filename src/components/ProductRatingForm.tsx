@@ -112,7 +112,7 @@ export default function ProductRatingForm({
             value={reviewerName}
             onChange={(e) => setReviewerName(e.target.value)}
             placeholder="Enter your name"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none"
+            className="w-full px-4 py-3 border-3 border-emerald-600 rounded-lg focus:ring-2 focus:ring-emerald-700 focus:border-emerald-700 outline-none text-gray-900 font-bold placeholder-gray-800 bg-white text-base"
           />
         </div>
 
@@ -128,9 +128,9 @@ export default function ProductRatingForm({
             placeholder="Share your thoughts about this product..."
             maxLength={500}
             rows={4}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none resize-none"
+            className="w-full px-4 py-3 border-3 border-emerald-600 rounded-lg focus:ring-2 focus:ring-emerald-700 focus:border-emerald-700 outline-none resize-none text-gray-900 font-bold placeholder-gray-800 bg-white text-base"
           />
-          <p className="text-xs text-gray-500">{review.length} / 500 characters</p>
+          <p className="text-xs text-gray-600 font-bold">{review.length} / 500 characters</p>
         </div>
 
         {/* Submit Message */}

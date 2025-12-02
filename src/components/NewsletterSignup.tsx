@@ -65,19 +65,19 @@ export default function NewsletterSignup({ variant = 'default', placeholder = 'E
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={placeholder}
-              className="flex-1 px-4 py-2 rounded-lg border border-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-400"
+              className="flex-1 px-4 py-3 rounded-lg border-2 border-amber-400 bg-white text-gray-900 font-bold placeholder-gray-700 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:border-amber-300 text-base"
               disabled={status === 'loading'}
             />
             <button
               type="submit"
               disabled={status === 'loading'}
-              className="px-4 py-2 bg-amber-400 text-emerald-900 font-bold rounded-lg hover:bg-amber-300 disabled:bg-gray-400 transition-colors whitespace-nowrap"
+              className="px-4 py-3 bg-amber-400 text-emerald-900 font-black rounded-lg hover:bg-amber-300 disabled:bg-gray-400 transition-colors whitespace-nowrap"
             >
               {status === 'loading' ? '...' : 'Subscribe'}
             </button>
           </div>
           {message && (
-            <p className={`text-sm ${status === 'success' ? 'text-green-300' : 'text-red-300'}`}>
+            <p className={`text-sm font-bold ${status === 'success' ? 'text-green-300' : 'text-red-300'}`}>
               {message}
             </p>
           )}
@@ -99,19 +99,19 @@ export default function NewsletterSignup({ variant = 'default', placeholder = 'E
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={placeholder}
-              className="flex-1 px-4 py-3 rounded-lg border-2 border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-lg"
+              className="flex-1 px-4 py-3 rounded-lg border-3 border-emerald-600 bg-white text-gray-900 font-bold placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-700 focus:border-emerald-700 text-lg"
               disabled={status === 'loading'}
             />
             <button
               type="submit"
               disabled={status === 'loading'}
-              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 text-white font-bold rounded-lg disabled:bg-gray-400 transition-all text-lg whitespace-nowrap"
+              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 text-white font-black rounded-lg disabled:bg-gray-400 transition-all text-lg whitespace-nowrap"
             >
               {status === 'loading' ? '...' : 'Subscribe'}
             </button>
           </div>
           {message && (
-            <p className={`text-sm font-semibold ${status === 'success' ? 'text-green-700' : 'text-red-700'}`}>
+            <p className={`text-sm font-bold ${status === 'success' ? 'text-green-700' : 'text-red-700'}`}>
               {message}
             </p>
           )}
@@ -129,19 +129,19 @@ export default function NewsletterSignup({ variant = 'default', placeholder = 'E
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder={placeholder}
-          className="flex-1 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+          className="flex-1 px-4 py-3 rounded-lg border-2 border-emerald-400 bg-white text-gray-900 font-bold placeholder-gray-700 focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-base"
           disabled={status === 'loading'}
         />
         <button
           type="submit"
           disabled={status === 'loading'}
-          className="px-6 py-2 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 disabled:bg-gray-400 transition-colors whitespace-nowrap"
+          className="px-6 py-3 bg-emerald-600 text-white font-black rounded-lg hover:bg-emerald-700 disabled:bg-gray-400 transition-colors whitespace-nowrap"
         >
           {status === 'loading' ? '...' : 'Subscribe'}
         </button>
       </form>
       {message && (
-        <p className={`text-sm mt-2 ${status === 'success' ? 'text-green-600' : 'text-red-600'}`}>
+        <p className={`text-sm mt-2 font-bold ${status === 'success' ? 'text-green-600' : 'text-red-600'}`}>
           {message}
         </p>
       )}

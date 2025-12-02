@@ -123,7 +123,7 @@ export default function ReviewsPage() {
                     name="author"
                     value={formData.author}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-emerald-500"
+                    className="w-full px-4 py-3 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base"
                     placeholder="John Smith"
                   />
                 </div>
@@ -134,7 +134,7 @@ export default function ReviewsPage() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-emerald-500"
+                    className="w-full px-4 py-3 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -163,7 +163,7 @@ export default function ReviewsPage() {
                   name="title"
                   value={formData.title}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-emerald-500"
+                  className="w-full px-4 py-3 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base"
                   placeholder="Great quality fruit!"
                   maxLength={100}
                 />
@@ -175,7 +175,7 @@ export default function ReviewsPage() {
                   name="content"
                   value={formData.content}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-emerald-500 min-h-24"
+                  className="w-full px-4 py-3 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base min-h-24"
                   placeholder="Share your experience with Fresh Tropics..."
                   maxLength={500}
                 />

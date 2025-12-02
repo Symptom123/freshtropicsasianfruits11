@@ -215,22 +215,22 @@ export default function CartPage() {
                           <p className="font-semibold text-emerald-600 mt-2">${item.price.toFixed(2)} each</p>
                         </div>
                         <div className="text-right space-y-2">
-                          <div className="flex items-center border-2 border-gray-300 rounded-lg gap-2">
+                          <div className="flex items-center border-3 border-emerald-600 bg-white rounded-lg gap-2">
                             <button 
                               onClick={() => updateQuantity(item.id, Math.max(1, item.cartQuantity - 1))}
-                              className="px-3 py-2 hover:bg-gray-100"
+                              className="px-4 py-3 text-gray-900 font-black text-xl hover:bg-gray-100 transition-colors"
                             >
                               −
                             </button>
-                            <span className="w-8 text-center font-bold">{item.cartQuantity}</span>
+                            <span className="w-12 text-center font-black text-lg text-gray-900 bg-white">{item.cartQuantity}</span>
                             <button 
                               onClick={() => updateQuantity(item.id, item.cartQuantity + 1)}
-                              className="px-3 py-2 hover:bg-gray-100"
+                              className="px-4 py-3 text-gray-900 font-black text-xl hover:bg-gray-100 transition-colors"
                             >
                               +
                             </button>
                           </div>
-                          <p className="text-lg font-black text-gray-900">${(item.price * item.cartQuantity).toFixed(2)}</p>
+                          <p className="text-2xl font-black text-gray-900">${(item.price * item.cartQuantity).toFixed(2)}</p>
                           <button 
                             onClick={() => removeFromCart(item.id)}
                             className="text-red-600 hover:text-red-700 text-sm font-semibold"
@@ -266,14 +266,14 @@ export default function CartPage() {
                     <h2 className="text-2xl font-bold text-gray-900 mb-6">Shipping Information</h2>
                     <div className="space-y-4">
                       <div className="grid grid-cols-2 gap-4">
-                        <input type="text" placeholder="First Name" value={customerName} onChange={(e) => setCustomerName(e.target.value)} className="px-4 py-3 border-2 border-gray-400 rounded-lg focus:outline-none focus:border-emerald-600 text-gray-900 font-semibold placeholder-gray-700" />
-                        <input type="text" placeholder="Last Name" className="px-4 py-3 border-2 border-gray-400 rounded-lg focus:outline-none focus:border-emerald-600 text-gray-900 font-semibold placeholder-gray-700" />
+                        <input type="text" placeholder="First Name" value={customerName} onChange={(e) => setCustomerName(e.target.value)} className="px-4 py-4 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base" />
+                        <input type="text" placeholder="Last Name" className="px-4 py-4 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base" />
                       </div>
-                      <input type="email" placeholder="Email Address" value={customerEmail} onChange={(e) => setCustomerEmail(e.target.value)} className="w-full px-4 py-3 border-2 border-gray-400 rounded-lg focus:outline-none focus:border-emerald-600 text-gray-900 font-semibold placeholder-gray-700" />
-                      <input type="text" placeholder="Street Address" className="w-full px-4 py-3 border-2 border-gray-400 rounded-lg focus:outline-none focus:border-emerald-600 text-gray-900 font-semibold placeholder-gray-700" />
+                      <input type="email" placeholder="Email Address" value={customerEmail} onChange={(e) => setCustomerEmail(e.target.value)} className="w-full px-4 py-4 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base" />
+                      <input type="text" placeholder="Street Address" className="w-full px-4 py-4 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base" />
                       <div className="grid grid-cols-3 gap-4">
-                        <input type="text" placeholder="City" className="col-span-2 px-4 py-3 border-2 border-gray-400 rounded-lg focus:outline-none focus:border-emerald-600 text-gray-900 font-semibold placeholder-gray-700" />
-                        <input type="text" placeholder="ZIP" className="col-span-1 px-4 py-3 border-2 border-gray-400 rounded-lg focus:outline-none focus:border-emerald-600 text-gray-900 font-semibold placeholder-gray-700" />
+                        <input type="text" placeholder="City" className="col-span-2 px-4 py-4 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base" />
+                        <input type="text" placeholder="ZIP" className="col-span-1 px-4 py-4 border-3 border-emerald-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-700 text-gray-900 font-bold placeholder-gray-800 bg-white text-base" />
                       </div>
                       <div className="bg-emerald-50 p-4 rounded-lg border-2 border-emerald-300">
                         <p className="text-sm font-bold text-emerald-900">✓ Free shipping on orders over $50</p>
