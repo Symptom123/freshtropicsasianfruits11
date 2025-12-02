@@ -45,7 +45,7 @@ export const videos: Video[] = [
     category: 'product-demo',
     productId: 'pinkglow',
     productName: 'Pink Glow Pineapple',
-    videoId: 'H-XxNQHXLKA',
+    videoId: 'Tu9dugsWS7s',
     thumbnail: '🍍',
     duration: '3:45',
     views: 267000,
