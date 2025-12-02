@@ -99,16 +99,16 @@ export default function FAQPage() {
 
         <div className="space-y-8">
           {faqs.map((section, idx) => (
-            <div key={idx} className="border-b-2 border-emerald-200 pb-8 last:border-b-0">
-              <h3 className="text-2xl font-bold text-emerald-900 mb-6">{section.category}</h3>
+            <div key={idx} className="border-b-2 border-amber-400/20 pb-8 last:border-b-0">
+              <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-cyan-300 mb-6">{section.category}</h3>
               <div className="space-y-4">
                 {section.questions.map((item, qIdx) => (
-                  <details key={qIdx} className="group border border-gray-200 rounded-lg p-4 hover:border-emerald-300 transition-colors">
-                    <summary className="font-semibold text-gray-900 cursor-pointer group-open:text-emerald-700 flex items-center gap-2">
-                      <span className="inline-flex items-center justify-center w-6 h-6 bg-emerald-100 rounded-full group-open:bg-emerald-600 group-open:text-white text-sm font-bold transition-all">+</span>
+                  <details key={qIdx} className="group bg-gradient-to-br from-emerald-900/40 to-cyan-900/40 backdrop-blur-sm border border-amber-400/30 rounded-lg p-4 hover:border-amber-300/50 transition-all hover:shadow-lg hover:shadow-amber-400/20">
+                    <summary className="font-semibold text-amber-50 cursor-pointer group-open:text-amber-200 flex items-center gap-2">
+                      <span className="inline-flex items-center justify-center w-6 h-6 bg-gradient-to-br from-amber-500/50 to-yellow-500/50 rounded-full group-open:from-amber-400 group-open:to-yellow-300 group-open:text-emerald-900 text-sm font-bold transition-all text-amber-100 group-open:shadow-lg group-open:shadow-amber-400/50">+</span>
                       {item.q}
                     </summary>
-                    <p className="text-gray-700 mt-4 ml-8">{item.a}</p>
+                    <p className="text-amber-50 mt-4 ml-8 leading-relaxed">{item.a}</p>
                   </details>
                 ))}
               </div>
@@ -116,14 +116,14 @@ export default function FAQPage() {
           ))}
         </div>
 
-        <div className="mt-12 bg-gradient-to-r from-emerald-50 to-yellow-50 rounded-lg p-8 text-center">
-          <h3 className="text-2xl font-bold text-emerald-900 mb-4">Still Have Questions?</h3>
-          <p className="text-gray-700 mb-6">Our customer service team is available 24/7 to help!</p>
+        <div className="mt-12 bg-gradient-to-r from-amber-600/30 via-yellow-600/30 to-amber-600/30 backdrop-blur-md rounded-lg p-8 text-center border-2 border-amber-400/30">
+          <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-yellow-100 mb-4">Still Have Questions?</h3>
+          <p className="text-amber-50 mb-6 text-lg">Our customer service team is available 24/7 to help!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:hello@freshtropicsasianfruits.com" className="bg-emerald-600 text-white px-8 py-3 rounded-lg hover:bg-emerald-700 transition-colors font-semibold">
+            <a href="mailto:hello@freshtropicsasianfruits.com" className="bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-300 text-emerald-900 px-8 py-3 rounded-lg hover:shadow-2xl hover:shadow-amber-400/50 transition-all font-bold uppercase">
               Email Us
             </a>
-            <a href="tel:+17867584787" className="bg-yellow-400 text-emerald-900 px-8 py-3 rounded-lg hover:bg-yellow-300 transition-colors font-semibold">
+            <a href="tel:+17867584787" className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white px-8 py-3 rounded-lg hover:shadow-2xl hover:shadow-emerald-400/50 transition-all font-bold uppercase">
               Call Us: (786) 758-4787
             </a>
           </div>

@@ -3,20 +3,20 @@ import PageLayout from '@/components/PageLayout'
 export default function AboutPage(){
   return (
     <PageLayout>
-      <div className="bg-white">
+      <div className="bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-700 min-h-screen">
         {/* Hero Section with Image */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-emerald-900">Our Story</h1>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <div className="space-y-6">
+              <h1 className="text-5xl md:text-6xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100">Our Story</h1>
+              <p className="text-lg text-amber-50 leading-relaxed mb-4">
                 My family has always been connected to the land. Growing up in a Cuban-American household, our kitchen was always filled with fresh avocados, mangos, yuca, and other fruits with names that to this day, I still have trouble pronouncing.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-amber-50 leading-relaxed">
                 My father is a tropical produce entrepreneur that for over 35 years has been sourcing exotic and tropical produce from Florida, the Caribbean, Central and South America to all corners of the United States.
               </p>
             </div>
-            <div className="rounded-lg overflow-hidden shadow-2xl">
+            <div className="rounded-xl overflow-hidden shadow-2xl border-2 border-amber-400/30 backdrop-blur-sm bg-white/10">
               <img 
                 src="https://cdn.shopify.com/s/files/1/0054/9512/8152/files/TropicalFruit.jpg?v=1583671710"
                 alt="Tropical Fruit Warehouse"
@@ -27,15 +27,15 @@ export default function AboutPage(){
         </div>
 
         {/* Family Story Section */}
-        <div className="bg-gradient-to-br from-emerald-50 to-yellow-50 py-16">
+        <div className="bg-gradient-to-br from-emerald-800/50 via-emerald-700/50 to-emerald-600/50 backdrop-blur-md border-t border-b border-amber-400/20 py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold mb-8 text-emerald-900">A Memory From Ecuador</h2>
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
+            <h2 className="text-4xl font-black mb-8 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-emerald-200">A Memory From Ecuador</h2>
+            <div className="prose prose-lg max-w-none text-amber-50 space-y-6">
               <p className="text-lg leading-relaxed">
                 Because of our family's business, I was raised visiting farms in the Caribbean, Central, and South America. One of my first memories, was as a young girl in the mountains of Ecuador. I was holding my Dad's hand as I saw a pack of mules with large sacks draped over their sides, guided down a mountain by a farmer. They were carrying a load of a local root, known as malanga. Covered in fresh dirt, the root was brown with thread-like hairs on the outside. 
               </p>
 
-              <p className="text-lg leading-relaxed italic bg-white p-6 rounded-lg border-l-4 border-emerald-600">
+              <p className="text-lg leading-relaxed italic bg-gradient-to-r from-emerald-900/50 to-cyan-900/50 backdrop-blur-sm p-6 rounded-lg border-l-4 border-amber-400 text-amber-50">
                 "It doesn't get any fresher than this!" the proud farmer said as he broke the root in half with a crisp snap. Ugly-looking on the outside, the inside was pristine and white as snow.
               </p>
 
@@ -48,36 +48,36 @@ export default function AboutPage(){
 
         {/* Family & Mission */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h2 className="text-3xl font-bold mb-8 text-emerald-900">My Family & Mission</h2>
+          <h2 className="text-4xl font-black mb-8 text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100">My Family & Mission</h2>
           
-          <div className="bg-white border-2 border-emerald-200 rounded-lg p-8 mb-12">
-            <p className="text-lg leading-relaxed text-gray-700 mb-6">
+          <div className="bg-gradient-to-br from-emerald-900/40 to-cyan-900/40 backdrop-blur-md border-2 border-amber-400/30 rounded-lg p-8 mb-12">
+            <p className="text-lg leading-relaxed text-amber-50 mb-6">
               I have now started a family of my own. As a Cuban-American mother of 3, married to a Costa Rican, whose mother is from El Salvador and father is from Nicaragua, my family is as diverse as my experience. We represent the true multicultural heritage of the tropical Americas.
             </p>
 
-            <p className="text-lg leading-relaxed font-semibold text-emerald-900 bg-yellow-50 p-6 rounded-lg border-l-4 border-amber-500">
+            <p className="text-lg leading-relaxed font-semibold text-amber-100 bg-gradient-to-r from-amber-600/40 to-yellow-600/40 backdrop-blur-sm p-6 rounded-lg border-l-4 border-amber-300">
               As I've travelled the country, I've learned just how hard it can be to find and enjoy fresh tropical produce. That's why I decided to start Fresh Tropics Asian Fruits. It's my hope that this produce can nourish and bring your family together just as it has mine.
             </p>
           </div>
 
           {/* Values Section */}
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-lg border-2 border-emerald-200 hover:shadow-lg transition-shadow">
-              <div className="text-5xl mb-4">🌱</div>
-              <h3 className="text-2xl font-bold text-emerald-900 mb-3">35+ Years Heritage</h3>
-              <p className="text-gray-700 leading-relaxed">Family expertise in sourcing authentic tropical produce directly from farms in Florida, the Caribbean, Central and South America.</p>
+            <div className="bg-gradient-to-br from-emerald-900/50 to-cyan-900/50 backdrop-blur-md p-8 rounded-lg border-2 border-amber-400/30 hover:shadow-xl hover:shadow-amber-400/20 transition-all group">
+              <div className="text-5xl mb-4 group-hover:scale-125 transition-transform">🌱</div>
+              <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-cyan-300 mb-3">35+ Years Heritage</h3>
+              <p className="text-amber-50 leading-relaxed">Family expertise in sourcing authentic tropical produce directly from farms in Florida, the Caribbean, Central and South America.</p>
             </div>
 
-            <div className="bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-lg border-2 border-emerald-200 hover:shadow-lg transition-shadow">
-              <div className="text-5xl mb-4">🥭</div>
-              <h3 className="text-2xl font-bold text-emerald-900 mb-3">Peak Freshness</h3>
-              <p className="text-gray-700 leading-relaxed">Direct from trusted partner farms to your doorstep. Harvested at peak ripeness, shipped within 24 hours. "It doesn't get any fresher than this!"</p>
+            <div className="bg-gradient-to-br from-emerald-900/50 to-cyan-900/50 backdrop-blur-md p-8 rounded-lg border-2 border-amber-400/30 hover:shadow-xl hover:shadow-amber-400/20 transition-all group">
+              <div className="text-5xl mb-4 group-hover:scale-125 transition-transform">🥭</div>
+              <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-cyan-300 mb-3">Peak Freshness</h3>
+              <p className="text-amber-50 leading-relaxed">Direct from trusted partner farms to your doorstep. Harvested at peak ripeness, shipped within 24 hours. "It doesn't get any fresher than this!"</p>
             </div>
 
-            <div className="bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-lg border-2 border-emerald-200 hover:shadow-lg transition-shadow">
-              <div className="text-5xl mb-4">❤️</div>
-              <h3 className="text-2xl font-bold text-emerald-900 mb-3">Bringing Families Together</h3>
-              <p className="text-gray-700 leading-relaxed">We celebrate the diversity and heritage of our multicultural family through authentic tropical fruits that nourish yours.</p>
+            <div className="bg-gradient-to-br from-emerald-900/50 to-cyan-900/50 backdrop-blur-md p-8 rounded-lg border-2 border-amber-400/30 hover:shadow-xl hover:shadow-amber-400/20 transition-all group">
+              <div className="text-5xl mb-4 group-hover:scale-125 transition-transform">❤️</div>
+              <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-cyan-300 mb-3">Bringing Families Together</h3>
+              <p className="text-amber-50 leading-relaxed">We celebrate the diversity and heritage of our multicultural family through authentic tropical fruits that nourish yours.</p>
             </div>
           </div>
         </div>

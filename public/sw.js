@@ -14,7 +14,7 @@ const STATIC_ASSETS = [
 ]
 
 // Install event - cache static assets
-self.addEventListener('install', (event: ExtendableEvent) => {
+self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll(STATIC_ASSETS).catch((err) => {
@@ -26,7 +26,7 @@ self.addEventListener('install', (event: ExtendableEvent) => {
 })
 
 // Activate event - cleanup old caches
-self.addEventListener('activate', (event: ExtendableEvent) => {
+self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
@@ -45,7 +45,7 @@ self.addEventListener('activate', (event: ExtendableEvent) => {
 })
 
 // Fetch event - implement caching strategies
-self.addEventListener('fetch', (event: FetchEvent) => {
+self.addEventListener('fetch', (event) => {
   const { request } = event
   const url = new URL(request.url)
 
@@ -122,7 +122,7 @@ self.addEventListener('fetch', (event: FetchEvent) => {
 })
 
 // Push notification event
-self.addEventListener('push', (event: PushEvent) => {
+self.addEventListener('push', (event) => {
   const data = event.data?.json() ?? {}
   const title = data.title ?? 'Fresh Tropics'
   const options = {
@@ -147,7 +147,7 @@ self.addEventListener('push', (event: PushEvent) => {
 })
 
 // Notification click event
-self.addEventListener('notificationclick', (event: NotificationEvent) => {
+self.addEventListener('notificationclick', (event) => {
   event.notification.close()
 
   if (event.action === 'close') {
@@ -160,7 +160,7 @@ self.addEventListener('notificationclick', (event: NotificationEvent) => {
       for (let i = 0; i < clientList.length; i++) {
         const client = clientList[i]
         if ('focus' in client) {
-          return (client as WindowClient).focus()
+          return client.focus()
         }
       }
       // Open new window if none exist
@@ -172,7 +172,7 @@ self.addEventListener('notificationclick', (event: NotificationEvent) => {
 })
 
 // Background sync for orders
-self.addEventListener('sync', (event: any) => {
+self.addEventListener('sync', (event) => {
   if (event.tag === 'sync-orders') {
     event.waitUntil(
       fetch('/api/orders/sync', { method: 'POST' })
@@ -190,10 +190,8 @@ self.addEventListener('sync', (event: any) => {
 })
 
 // Message handler for client communication
-self.addEventListener('message', (event: ExtendableMessageEvent) => {
+self.addEventListener('message', (event) => {
   if (event.data?.type === 'SKIP_WAITING') {
     self.skipWaiting()
   }
 })
-
-export {}
