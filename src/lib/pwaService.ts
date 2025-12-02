@@ -33,7 +33,7 @@ class PWAService {
         this.registration = await navigator.serviceWorker.register('/sw.js', {
           scope: '/',
         })
-        console.log('Service Worker registered successfully')
+        console.log('✓ Service Worker registered successfully')
 
         // Listen for updates
         this.registration.addEventListener('updatefound', () => {
@@ -47,7 +47,8 @@ class PWAService {
           }
         })
       } catch (error) {
-        console.error('Service Worker registration failed:', error)
+        console.warn('Service Worker registration error:', error instanceof Error ? error.message : error)
+        // Service Worker failure is not critical - app will still work offline partially
       }
     }
 
@@ -84,10 +85,17 @@ class PWAService {
         return false
       }
 
-      const vapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY || ''
+      const vapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY
+      
+      // Only proceed if VAPID key is configured
+      if (!vapidKey) {
+        console.warn('Push notifications not configured - missing VAPID key')
+        return false
+      }
+
       const subscription = await this.registration?.pushManager.subscribe({
         userVisibleOnly: true,
-        applicationServerKey: vapidKey ? this.urlBase64ToUint8Array(vapidKey) : undefined,
+        applicationServerKey: this.urlBase64ToUint8Array(vapidKey),
       })
 
       if (subscription) {
@@ -96,7 +104,7 @@ class PWAService {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(subscription),
-        })
+        }).catch(err => console.error('Failed to store subscription:', err))
         return true
       }
     } catch (error) {
