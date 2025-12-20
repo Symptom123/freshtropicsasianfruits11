@@ -27,15 +27,15 @@ export default function Header(){
 
   return (
     <header className="bg-gradient-to-b from-emerald-900 via-emerald-800 to-emerald-700 shadow-2xl border-b-4 border-amber-500 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo & Branding */}
-          <Link href="/" className="flex items-center gap-3 group flex-shrink-0" onClick={closeMobileMenu}>
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 group flex-shrink-0" onClick={closeMobileMenu}>
             <div className="transform group-hover:scale-125 transition-transform duration-300 drop-shadow-lg">
-              <Image src="/logo.svg" alt="Fresh Tropics Asian Fruits" width={56} height={56} className="filter brightness-110" />
+              <Image src="/logo.svg" alt="Fresh Tropics Asian Fruits" width={44} height={44} className="filter brightness-110 sm:w-14 sm:h-14" />
             </div>
             <div className="hidden sm:flex flex-col">
-              <span className="font-black text-2xl text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 tracking-tight drop-shadow-md leading-tight">
+              <span className="font-black text-lg sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-100 tracking-tight drop-shadow-md leading-tight">
                 Fresh Tropics
               </span>
               <span className="text-xs font-bold text-amber-100 tracking-widest uppercase drop-shadow-md">
@@ -111,16 +111,16 @@ export default function Header(){
           </nav>
 
           {/* Cart & Menu Buttons */}
-          <div className="flex items-center gap-2 lg:gap-4">
-            <Link href="/wishlist" className="hidden md:flex items-center gap-2 px-3 lg:px-4 py-2 bg-red-50 hover:bg-red-100 text-red-600 font-bold rounded-lg transition-all text-xs lg:text-sm hover:shadow-lg" onClick={closeMobileMenu}>
-              <span className="text-lg">🤍</span>
+          <div className="flex items-center gap-1 sm:gap-2 lg:gap-4">
+            <Link href="/wishlist" className="hidden md:flex items-center gap-1 sm:gap-2 px-2 sm:px-3 lg:px-4 py-2 bg-red-50 hover:bg-red-100 text-red-600 font-bold rounded-lg transition-all text-xs lg:text-sm hover:shadow-lg" onClick={closeMobileMenu}>
+              <span className="text-base sm:text-lg">🤍</span>
               <span className="hidden lg:inline">Wishlist</span>
             </Link>
-            <Link href="/cart" className="flex items-center gap-2 lg:gap-3 px-4 lg:px-6 py-2 lg:py-3 bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-300 text-emerald-900 font-bold rounded-full shadow-lg hover:shadow-2xl hover:from-amber-300 hover:via-amber-200 hover:to-yellow-200 transition-all duration-300 group text-xs lg:text-sm" onClick={closeMobileMenu}>
+            <Link href="/cart" className="flex items-center gap-1 sm:gap-2 lg:gap-3 px-3 sm:px-4 lg:px-6 py-2 lg:py-3 bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-300 text-emerald-900 font-bold rounded-full shadow-lg hover:shadow-2xl hover:from-amber-300 hover:via-amber-200 hover:to-yellow-200 transition-all duration-300 group text-xs lg:text-sm" onClick={closeMobileMenu}>
               <svg className="w-4 lg:w-5 h-4 lg:h-5 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
                 <path d="M7 4V3c0-.6.4-1 1-1h8c.6 0 1 .4 1 1v1h4c.6 0 1 .4 1 1v2c0 .3-.1.5-.3.7L19 20c-.2 1.1-1.1 2-2.3 2H7.3c-1.2 0-2.1-.9-2.3-2L2.3 7.7C2.1 7.5 2 7.3 2 7V5c0-.6.4-1 1-1h4zm2 2h6V4H9v2zm8.2 15H6.8l1.5-11h11.4l-1.5 11z"/>
               </svg>
-              <span className="font-black hidden sm:inline">CART</span>
+              <span className="font-black hidden sm:inline text-xs sm:text-sm">CART</span>
               <CartCount />
             </Link>
 
@@ -139,116 +139,116 @@ export default function Header(){
       </div>
 
       {/* Mobile Navigation Menu */}
-      <div className={`lg:hidden absolute left-0 right-0 top-20 bg-gradient-to-b from-emerald-800 to-emerald-700 shadow-2xl border-b-2 border-amber-500 overflow-hidden transition-all duration-300 ease-in-out origin-top ${
+      <div className={`lg:hidden absolute left-0 right-0 top-16 sm:top-20 bg-gradient-to-b from-emerald-800 to-emerald-700 shadow-2xl border-b-2 border-amber-500 overflow-hidden transition-all duration-300 ease-in-out origin-top max-h-[calc(100vh-4rem)] sm:max-h-[calc(100vh-5rem)] overflow-y-auto ${
         isMobileMenuOpen ? 'scale-y-100 opacity-100 visible' : 'scale-y-0 opacity-0 invisible'
       }`}>
-        <nav className="flex flex-col py-4 px-6 gap-2">
+        <nav className="flex flex-col py-3 sm:py-4 px-3 sm:px-6 gap-1.5 sm:gap-2">
           <Link 
             href="/" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             🏠 Home
           </Link>
           <Link 
             href="/shop" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             🛒 Shop
           </Link>
           <Link 
             href="/shop?category=pinkglow" 
-            className="block px-4 py-3 text-pink-200 font-bold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-pink-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-pink-200 font-bold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-pink-300"
             onClick={closeMobileMenu}
           >
             🌸 Pink Glow Pineapple
           </Link>
           <Link 
             href="/build-box" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             📦 Build Your Own Box
           </Link>
           <Link 
             href="/blog" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             📰 Blog
           </Link>
           <Link 
             href="/comparison" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             🍎 Compare
           </Link>
           <Link 
             href="/about" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             ℹ️ About
           </Link>
           <Link 
             href="/subscribe" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             🔄 Subscribe & Save
           </Link>
           
           {/* Mobile Menu Divider */}
-          <div className="my-2 h-0.5 bg-gradient-to-r from-amber-500 to-yellow-300 opacity-50"></div>
+          <div className="my-1.5 sm:my-2 h-0.5 bg-gradient-to-r from-amber-500 to-yellow-300 opacity-50"></div>
           
           {/* Additional Mobile Menu Items */}
           <Link 
             href="/seasonal" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             🌍 Seasonal
           </Link>
           <Link 
             href="/app" 
-            className="block px-4 py-3 text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text font-black uppercase tracking-wide hover:bg-purple-600/30 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-purple-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-transparent bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text font-black text-sm sm:text-base uppercase tracking-wide hover:bg-purple-600/30 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-purple-300"
             onClick={closeMobileMenu}
           >
             📱 App
           </Link>
           <Link 
             href="/videos" 
-            className="block px-4 py-3 text-transparent bg-gradient-to-r from-pink-300 to-orange-300 bg-clip-text font-black uppercase tracking-wide hover:bg-pink-600/30 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-pink-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-transparent bg-gradient-to-r from-pink-300 to-orange-300 bg-clip-text font-black text-sm sm:text-base uppercase tracking-wide hover:bg-pink-600/30 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-pink-300"
             onClick={closeMobileMenu}
           >
             🎬 Videos
           </Link>
           <Link 
             href="/email-marketing" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             ✉️ Email Marketing
           </Link>
           <Link 
             href="/rewards" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             🎁 Rewards Program
           </Link>
           <Link 
             href="/live-chat" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             💬 Live Chat
           </Link>
           <Link 
             href="/admin" 
-            className="block px-4 py-3 text-amber-50 font-semibold uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
+            className="block px-3 sm:px-4 py-2 sm:py-3 text-amber-50 font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-emerald-600 rounded-lg transition-all duration-200 border-l-4 border-transparent hover:border-amber-300"
             onClick={closeMobileMenu}
           >
             📊 Admin
